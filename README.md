@@ -14,6 +14,7 @@
   <a href="#quick-start">Quick Start</a> •
   <a href="#components">Components</a> •
   <a href="#demo">Demo</a> •
+  <a href="https://github.com/RoboUI/roboui-android">Android SDK</a> •
   <a href="CONTRIBUTING.md">Contributing</a>
 </p>
 
@@ -58,7 +59,7 @@ Every robotics team builds mobile control UI from scratch. RoboUI is **Mapbox fo
 ```swift
 // Package.swift
 dependencies: [
-    .package(url: "https://github.com/RoboUI/roboui.git", from: "0.1.0")
+    .package(url: "https://github.com/RoboUI/roboui-ios.git", from: "0.1.0")
 ]
 ```
 
@@ -222,8 +223,8 @@ The app is the best demo of what the SDK can do. [Join the waitlist →](https:/
 
 We're building this in the open. All contributions welcome!
 
-- 🐛 [Open an issue](https://github.com/RoboUI/roboui/issues)
-- 💬 [Discussions](https://github.com/RoboUI/roboui/discussions)
+- 🐛 [Open an issue](https://github.com/RoboUI/roboui-ios/issues)
+- 💬 [Discussions](https://github.com/RoboUI/roboui-ios/discussions)
 - 📧 [hello@roboui.dev](mailto:hello@roboui.dev)
 
 ## License
