@@ -1,11 +1,21 @@
 // RoboUI — Native Mobile SDK for ROS2 Robots
-// https://github.com/RoboUI/roboui
 //
-// MIT License
+// https://roboui.dev
+// https://github.com/RoboUI/roboui
 
-/// Re-exports for public API
-/// Transport
-public typealias RobotConnection = RosbridgeConnection
+// Transport
+@_exported import struct Foundation.URL
+public typealias Connection = RosbridgeConnection
 
-/// The RoboUI SDK version
-public let roboUIVersion = "0.1.0-alpha"
+// Messages
+// - Vector3, Twist (Geometry.swift)
+// - LaserScan (LaserScan.swift)
+
+// Components
+// - TwistPublisher: differential drive (/cmd_vel)
+// - MecanumPublisher: omnidirectional drive (/cmd_vel)
+
+// Views
+// - JoystickView: single virtual joystick
+// - DualJoystickView: move + rotate (for mecanum)
+// - LaserScanView: LiDAR point cloud visualization
